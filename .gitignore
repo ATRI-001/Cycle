@@ -2,7 +2,7 @@
 Library/
 Logs/
 .runtime/
-materials/
+/materials/
 
 # Python cache
 __pycache__/
