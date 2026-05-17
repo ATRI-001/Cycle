@@ -1,0 +1,20 @@
+{
+  "sceneCameraStates": {
+    "d:\\github\\cycle\\assets\\gametemplate.scene": {
+      "position": [
+        2.507213592529297,
+        2.292248249053955,
+        -4.650196075439453
+      ],
+      "focusPoint": [
+        -0.6747045516967773,
+        0.5039775371551514,
+        0.11187472939491272
+      ],
+      "focusDistance": 5.999986171722412,
+      "yaw": -33.749935150146484,
+      "pitch": 17.340072631835938
+    }
+  },
+  "lastOpenedScene": "D:\\Github\\Cycle\\Assets\\GameTemplate.scene"
+}
