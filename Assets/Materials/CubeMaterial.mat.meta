@@ -1,0 +1,33 @@
+{
+    "meta_version": 2,
+    "metadata": {
+        "content_hash": {
+            "type": "string",
+            "value": "1df2b3472a8d9106"
+        },
+        "file_path": {
+            "type": "string",
+            "value": "D:/Github\\Cycle\\Assets\\Materials\\CubeMaterial.mat"
+        },
+        "guid": {
+            "type": "string",
+            "value": "65e62ad003f556454e8a54bf8ba8e4e2"
+        },
+        "importer_version": {
+            "type": "int",
+            "value": 1
+        },
+        "last_modified": {
+            "type": "string",
+            "value": "1779031400"
+        },
+        "material_name": {
+            "type": "string",
+            "value": "CubeMaterial"
+        },
+        "resource_type": {
+            "type": "enum infernux::ResourceType",
+            "value": "Material"
+        }
+    }
+}

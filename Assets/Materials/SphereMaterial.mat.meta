@@ -1,0 +1,33 @@
+{
+    "meta_version": 2,
+    "metadata": {
+        "content_hash": {
+            "type": "string",
+            "value": "6b7b336ef2add347"
+        },
+        "file_path": {
+            "type": "string",
+            "value": "D:/Github\\Cycle\\Assets\\Materials\\SphereMaterial.mat"
+        },
+        "guid": {
+            "type": "string",
+            "value": "e6af99c3d06b2f1fe0ad8094d54175fb"
+        },
+        "importer_version": {
+            "type": "int",
+            "value": 1
+        },
+        "last_modified": {
+            "type": "string",
+            "value": "1779031401"
+        },
+        "material_name": {
+            "type": "string",
+            "value": "SphereMaterial"
+        },
+        "resource_type": {
+            "type": "enum infernux::ResourceType",
+            "value": "Material"
+        }
+    }
+}

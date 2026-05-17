@@ -1,0 +1,33 @@
+{
+    "meta_version": 2,
+    "metadata": {
+        "content_hash": {
+            "type": "string",
+            "value": "db5dca5a2d0adc48"
+        },
+        "file_path": {
+            "type": "string",
+            "value": "D:/Github\\Cycle\\Assets\\Materials\\PlatformMaterial.mat"
+        },
+        "guid": {
+            "type": "string",
+            "value": "dee7d6e50df8b73236a7a7149f8e1bc1"
+        },
+        "importer_version": {
+            "type": "int",
+            "value": 1
+        },
+        "last_modified": {
+            "type": "string",
+            "value": "1779031402"
+        },
+        "material_name": {
+            "type": "string",
+            "value": "PlatformMaterial"
+        },
+        "resource_type": {
+            "type": "enum infernux::ResourceType",
+            "value": "Material"
+        }
+    }
+}

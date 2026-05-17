@@ -1,0 +1,33 @@
+{
+    "meta_version": 2,
+    "metadata": {
+        "content_hash": {
+            "type": "string",
+            "value": "cd10bd9f03e81737"
+        },
+        "file_path": {
+            "type": "string",
+            "value": "D:/Github\\Cycle\\Assets\\Materials\\FloorMaterial.mat"
+        },
+        "guid": {
+            "type": "string",
+            "value": "bc057567631959cfd1114a304a25665b"
+        },
+        "importer_version": {
+            "type": "int",
+            "value": 1
+        },
+        "last_modified": {
+            "type": "string",
+            "value": "1779031399"
+        },
+        "material_name": {
+            "type": "string",
+            "value": "FloorMaterial"
+        },
+        "resource_type": {
+            "type": "enum infernux::ResourceType",
+            "value": "Material"
+        }
+    }
+}

@@ -1,0 +1,45 @@
+{
+  "builtin": false,
+  "material_version": 3,
+  "name": "SphereMaterial",
+  "properties": {
+    "baseColor": {
+      "type": 3,
+      "value": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "color": {
+      "type": 7,
+      "value": [
+        0.10000000149011612,
+        0.4000000059604645,
+        0.8999999761581421,
+        1.0
+      ]
+    }
+  },
+  "renderState": {
+    "alphaClipEnabled": false,
+    "alphaClipThreshold": 0.5,
+    "blendEnable": false,
+    "colorBlendOp": 0,
+    "cullMode": 2,
+    "depthCompareOp": 1,
+    "depthTestEnable": true,
+    "depthWriteEnable": true,
+    "dstColorBlendFactor": 7,
+    "frontFace": 1,
+    "polygonMode": 0,
+    "renderQueue": 2000,
+    "srcColorBlendFactor": 6,
+    "stencilTestEnable": false
+  },
+  "shaders": {
+    "fragment": "unlit",
+    "vertex": "standard"
+  }
+}
