@@ -1,0 +1,9 @@
+# Engine generated
+Library/
+Logs/
+.runtime/
+materials/
+
+# Python cache
+__pycache__/
+*.pyc
