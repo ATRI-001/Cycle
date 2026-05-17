@@ -1,0 +1,24 @@
+{
+    "python.defaultInterpreterPath": "D:/Github/Cycle/.runtime/python312/python.exe",
+    "python.pythonPath": "D:/Github/Cycle/.runtime/python312/python.exe",
+    "python.terminal.activateEnvironment": true,
+    "python.analysis.typeCheckingMode": "basic",
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.extraPaths": [
+        "D:/Github\\Cycle\\.runtime\\python312\\Lib\\site-packages"
+    ],
+    "python.analysis.diagnosticSeverityOverrides": {
+        "reportMissingModuleSource": "none"
+    },
+    "editor.formatOnSave": true,
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/*.pyc": true,
+        "**/*.meta": true,
+        ".venv": true,
+        ".runtime": true,
+        "Library": true,
+        "Logs": true,
+        "ProjectSettings": true
+    }
+}
