@@ -4,6 +4,13 @@ Logs/
 .runtime/
 /materials/
 
+# Agent / IDE configs (using OpenCode global MCP & SKILL)
+.cursor/
+.codex/
+.gemini/
+.trae/
+.vscode/
+
 # Python cache
 __pycache__/
 *.pyc

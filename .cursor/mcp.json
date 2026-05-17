@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "infernux-editor": {
-      "url": "http://127.0.0.1:9713/mcp",
-      "transport": "streamable-http"
-    }
-  }
-}
