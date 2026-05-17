@@ -1,0 +1,65 @@
+{
+    "meta_version": 2,
+    "metadata": {
+        "classes": {
+            "type": "string",
+            "value": "Bouncer"
+        },
+        "component_classes": {
+            "type": "string",
+            "value": "Bouncer"
+        },
+        "content_hash": {
+            "type": "string",
+            "value": "8204afd5237e656f"
+        },
+        "file_extension": {
+            "type": "string",
+            "value": ".py"
+        },
+        "file_path": {
+            "type": "string",
+            "value": "D:/Github\\Cycle\\Assets\\Scripts\\Bouncer.py"
+        },
+        "file_size": {
+            "type": "size_t",
+            "value": 341
+        },
+        "file_type": {
+            "type": "string",
+            "value": "script"
+        },
+        "guid": {
+            "type": "string",
+            "value": "fa288354fe95a49b54e49552b845bf20"
+        },
+        "has_components": {
+            "type": "bool",
+            "value": true
+        },
+        "importer_version": {
+            "type": "int",
+            "value": 1
+        },
+        "imports": {
+            "type": "string",
+            "value": "Infernux"
+        },
+        "language": {
+            "type": "string",
+            "value": "python"
+        },
+        "last_modified": {
+            "type": "string",
+            "value": "1779031809"
+        },
+        "line_count": {
+            "type": "size_t",
+            "value": 16
+        },
+        "resource_type": {
+            "type": "enum infernux::ResourceType",
+            "value": "Script"
+        }
+    }
+}

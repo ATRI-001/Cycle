@@ -1,0 +1,65 @@
+{
+    "meta_version": 2,
+    "metadata": {
+        "classes": {
+            "type": "string",
+            "value": "Rotator"
+        },
+        "component_classes": {
+            "type": "string",
+            "value": "Rotator"
+        },
+        "content_hash": {
+            "type": "string",
+            "value": "fe085c8376f4e933"
+        },
+        "file_extension": {
+            "type": "string",
+            "value": ".py"
+        },
+        "file_path": {
+            "type": "string",
+            "value": "D:/Github\\Cycle\\Assets\\Scripts\\Rotator.py"
+        },
+        "file_size": {
+            "type": "size_t",
+            "value": 331
+        },
+        "file_type": {
+            "type": "string",
+            "value": "script"
+        },
+        "guid": {
+            "type": "string",
+            "value": "fd03ded0fe742e1a076af38031fbfb14"
+        },
+        "has_components": {
+            "type": "bool",
+            "value": true
+        },
+        "importer_version": {
+            "type": "int",
+            "value": 1
+        },
+        "imports": {
+            "type": "string",
+            "value": "Infernux"
+        },
+        "language": {
+            "type": "string",
+            "value": "python"
+        },
+        "last_modified": {
+            "type": "string",
+            "value": "1779031446"
+        },
+        "line_count": {
+            "type": "size_t",
+            "value": 15
+        },
+        "resource_type": {
+            "type": "enum infernux::ResourceType",
+            "value": "Script"
+        }
+    }
+}

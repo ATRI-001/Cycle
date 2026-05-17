@@ -1,0 +1,666 @@
+{
+  "isPlaying": false,
+  "mainCameraComponentId": 10,
+  "name": "GameTemplate",
+  "objects": [
+    {
+      "active": true,
+      "children": [],
+      "components": [
+        {
+          "baked": false,
+          "color": [
+            1.0,
+            0.949999988079071,
+            0.8999999761581421
+          ],
+          "component_id": 12,
+          "cullingMask": 4294967295,
+          "enabled": true,
+          "intensity": 1.0,
+          "lightType": 0,
+          "outerSpotAngle": 45.0,
+          "range": 10.0,
+          "renderMode": 0,
+          "schema_version": 1,
+          "shadowBias": 0.0,
+          "shadowNormalBias": 0.009999999776482582,
+          "shadowStrength": 1.0,
+          "shadows": 2,
+          "spotAngle": 30.0,
+          "type": "Light"
+        }
+      ],
+      "id": 6,
+      "is_static": false,
+      "layer": 0,
+      "name": "Directional Light",
+      "py_components": [],
+      "schema_version": 1,
+      "tag": "Untagged",
+      "transform": {
+        "component_id": 11,
+        "enabled": true,
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          50.0,
+          330.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "schema_version": 1,
+        "type": "Transform"
+      }
+    },
+    {
+      "active": true,
+      "children": [],
+      "components": [
+        {
+          "boundsMax": [
+            0.5,
+            0.0,
+            0.5
+          ],
+          "boundsMin": [
+            -0.5,
+            0.0,
+            -0.5
+          ],
+          "castShadows": true,
+          "component_id": 14,
+          "enabled": true,
+          "inlineMeshBuiltin": true,
+          "inlineMeshName": "Plane",
+          "materials": [],
+          "meshId": 0,
+          "receivesShadows": true,
+          "schema_version": 4,
+          "type": "MeshRenderer",
+          "useInlineMesh": true
+        },
+        {
+          "bounciness": 0.0,
+          "center": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "component_id": 780,
+          "convex": false,
+          "enabled": true,
+          "execution_order": 0,
+          "friction": 0.4000000059604645,
+          "instance_guid": 780,
+          "is_trigger": false,
+          "schema_version": 1,
+          "type": "MeshCollider"
+        }
+      ],
+      "id": 7,
+      "is_static": false,
+      "layer": 0,
+      "name": "Floor",
+      "py_components": [],
+      "schema_version": 1,
+      "tag": "Untagged",
+      "transform": {
+        "component_id": 13,
+        "enabled": true,
+        "position": [
+          0.0,
+          -0.5,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          5.0,
+          1.0,
+          5.0
+        ],
+        "schema_version": 1,
+        "type": "Transform"
+      }
+    },
+    {
+      "active": true,
+      "children": [],
+      "components": [
+        {
+          "boundsMax": [
+            0.5,
+            0.5,
+            0.5
+          ],
+          "boundsMin": [
+            -0.5,
+            -0.5,
+            -0.5
+          ],
+          "castShadows": true,
+          "component_id": 16,
+          "enabled": true,
+          "inlineMeshBuiltin": true,
+          "inlineMeshName": "Cube",
+          "materials": [],
+          "meshId": 0,
+          "receivesShadows": true,
+          "schema_version": 4,
+          "type": "MeshRenderer",
+          "useInlineMesh": true
+        }
+      ],
+      "id": 8,
+      "is_static": false,
+      "layer": 0,
+      "name": "RotatingCube",
+      "py_components": [
+        {
+          "component_id": 922,
+          "enabled": true,
+          "execution_order": 0,
+          "py_fields": {
+            "__component_id__": 922,
+            "__schema_version__": 1,
+            "__type_name__": "Rotator",
+            "speed": 90.0
+          },
+          "py_type_name": "Rotator",
+          "schema_version": 1,
+          "script_guid": "fd03ded0fe742e1a076af38031fbfb14",
+          "type": "PyComponentProxy",
+          "type_guid": ""
+        }
+      ],
+      "schema_version": 1,
+      "tag": "Untagged",
+      "transform": {
+        "component_id": 15,
+        "enabled": true,
+        "position": [
+          -2.0,
+          1.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "schema_version": 1,
+        "type": "Transform"
+      }
+    },
+    {
+      "active": true,
+      "children": [],
+      "components": [
+        {
+          "boundsMax": [
+            0.5,
+            0.5,
+            0.5
+          ],
+          "boundsMin": [
+            -0.5,
+            -0.5,
+            -0.5
+          ],
+          "castShadows": true,
+          "component_id": 18,
+          "enabled": true,
+          "inlineMeshBuiltin": true,
+          "inlineMeshName": "Sphere",
+          "materials": [],
+          "meshId": 0,
+          "receivesShadows": true,
+          "schema_version": 4,
+          "type": "MeshRenderer",
+          "useInlineMesh": true
+        },
+        {
+          "angular_drag": 0.05000000074505806,
+          "collision_detection_mode": 1,
+          "component_id": 21,
+          "constraints": 0,
+          "drag": 0.5,
+          "enabled": true,
+          "execution_order": 0,
+          "instance_guid": 21,
+          "interpolation": 0,
+          "is_kinematic": false,
+          "mass": 1.0,
+          "max_angular_velocity": 7.0,
+          "max_depenetration_velocity": 10000000000.0,
+          "max_linear_velocity": 500.0,
+          "schema_version": 1,
+          "type": "Rigidbody",
+          "use_gravity": true
+        },
+        {
+          "bounciness": 0.0,
+          "center": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "component_id": 23,
+          "enabled": true,
+          "execution_order": 0,
+          "friction": 0.4000000059604645,
+          "instance_guid": 23,
+          "is_trigger": false,
+          "radius": 0.5,
+          "schema_version": 1,
+          "type": "SphereCollider"
+        }
+      ],
+      "id": 9,
+      "is_static": false,
+      "layer": 0,
+      "name": "BouncingSphere",
+      "py_components": [
+        {
+          "component_id": 923,
+          "enabled": true,
+          "execution_order": 0,
+          "py_fields": {
+            "__component_id__": 923,
+            "__schema_version__": 1,
+            "__type_name__": "Bouncer",
+            "bounce_speed": 6.0
+          },
+          "py_type_name": "Bouncer",
+          "schema_version": 1,
+          "script_guid": "fa288354fe95a49b54e49552b845bf20",
+          "type": "PyComponentProxy",
+          "type_guid": ""
+        }
+      ],
+      "schema_version": 1,
+      "tag": "Untagged",
+      "transform": {
+        "component_id": 17,
+        "enabled": true,
+        "position": [
+          2.0,
+          5.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "schema_version": 1,
+        "type": "Transform"
+      }
+    },
+    {
+      "active": true,
+      "children": [],
+      "components": [
+        {
+          "boundsMax": [
+            0.5,
+            0.5,
+            0.5
+          ],
+          "boundsMin": [
+            -0.5,
+            -0.5,
+            -0.5
+          ],
+          "castShadows": true,
+          "component_id": 20,
+          "enabled": true,
+          "inlineMeshBuiltin": true,
+          "inlineMeshName": "Cube",
+          "materials": [],
+          "meshId": 0,
+          "receivesShadows": true,
+          "schema_version": 4,
+          "type": "MeshRenderer",
+          "useInlineMesh": true
+        },
+        {
+          "bounciness": 0.0,
+          "center": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "component_id": 781,
+          "convex": false,
+          "enabled": true,
+          "execution_order": 0,
+          "friction": 0.4000000059604645,
+          "instance_guid": 781,
+          "is_trigger": false,
+          "schema_version": 1,
+          "type": "MeshCollider"
+        }
+      ],
+      "id": 10,
+      "is_static": false,
+      "layer": 0,
+      "name": "Platform",
+      "py_components": [],
+      "schema_version": 1,
+      "tag": "Untagged",
+      "transform": {
+        "component_id": 19,
+        "enabled": true,
+        "position": [
+          0.0,
+          0.25,
+          2.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          2.0,
+          0.5,
+          1.0
+        ],
+        "schema_version": 1,
+        "type": "Transform"
+      }
+    },
+    {
+      "active": true,
+      "children": [],
+      "components": [
+        {
+          "aspectRatio": 1.7777777910232544,
+          "backgroundColor": [
+            0.10000000149011612,
+            0.10000000149011612,
+            0.10000000149011612,
+            1.0
+          ],
+          "clearFlags": 0,
+          "component_id": 10,
+          "cullingMask": 4294967295,
+          "depth": 0.0,
+          "enabled": true,
+          "farClip": 5000.0,
+          "fov": 65.0,
+          "nearClip": 0.009999999776482582,
+          "orthoSize": 5.0,
+          "projectionMode": 0,
+          "schema_version": 1,
+          "type": "Camera"
+        }
+      ],
+      "id": 5,
+      "is_static": false,
+      "layer": 0,
+      "name": "Main Camera",
+      "py_components": [],
+      "schema_version": 1,
+      "tag": "MainCamera",
+      "transform": {
+        "component_id": 9,
+        "enabled": true,
+        "position": [
+          6.0,
+          4.0,
+          6.0
+        ],
+        "rotation": [
+          25.0,
+          315.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "schema_version": 1,
+        "type": "Transform"
+      }
+    },
+    {
+      "active": true,
+      "children": [
+        {
+          "active": true,
+          "children": [],
+          "components": [],
+          "id": 12,
+          "is_static": false,
+          "layer": 0,
+          "name": "TitleText",
+          "py_components": [
+            {
+              "component_id": 925,
+              "enabled": true,
+              "execution_order": 0,
+              "py_fields": {
+                "__component_id__": 925,
+                "__schema_version__": 1,
+                "__type_name__": "UIText",
+                "align_h": 0,
+                "align_v": 0,
+                "color": [
+                  1.0,
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "corner_radius": 0.0,
+                "font_path": "",
+                "font_size": 24.0,
+                "height": 60.0,
+                "letter_spacing": 0.0,
+                "line_height": 1.2,
+                "lock_aspect_ratio": false,
+                "mirror_x": false,
+                "mirror_y": false,
+                "opacity": 1.0,
+                "overflow": 0,
+                "raycast_target": true,
+                "resize_mode": 2,
+                "rotation": 0.0,
+                "text": "🎮 Cycle — Infernux 引擎演示模板",
+                "text_align_h": 0,
+                "text_align_v": 0,
+                "width": 600.0,
+                "x": 60.0,
+                "y": 40.0
+              },
+              "py_type_name": "UIText",
+              "schema_version": 1,
+              "script_guid": "",
+              "type": "PyComponentProxy",
+              "type_guid": ""
+            }
+          ],
+          "schema_version": 1,
+          "tag": "Untagged",
+          "transform": {
+            "component_id": 28,
+            "enabled": true,
+            "position": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "schema_version": 1,
+            "type": "Transform"
+          }
+        },
+        {
+          "active": true,
+          "children": [],
+          "components": [],
+          "id": 13,
+          "is_static": false,
+          "layer": 0,
+          "name": "HintText",
+          "py_components": [
+            {
+              "component_id": 926,
+              "enabled": true,
+              "execution_order": 0,
+              "py_fields": {
+                "__component_id__": 926,
+                "__schema_version__": 1,
+                "__type_name__": "UIText",
+                "align_h": 0,
+                "align_v": 0,
+                "color": [
+                  1.0,
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "corner_radius": 0.0,
+                "font_path": "",
+                "font_size": 24.0,
+                "height": 40.0,
+                "letter_spacing": 0.0,
+                "line_height": 1.2,
+                "lock_aspect_ratio": false,
+                "mirror_x": false,
+                "mirror_y": false,
+                "opacity": 1.0,
+                "overflow": 0,
+                "raycast_target": true,
+                "resize_mode": 2,
+                "rotation": 0.0,
+                "text": "红色方块: Rotator 脚本(自转) | 蓝色球体: Bouncer 脚本 + Rigidbody 物理",
+                "text_align_h": 0,
+                "text_align_v": 0,
+                "width": 600.0,
+                "x": 60.0,
+                "y": 100.0
+              },
+              "py_type_name": "UIText",
+              "schema_version": 1,
+              "script_guid": "",
+              "type": "PyComponentProxy",
+              "type_guid": ""
+            }
+          ],
+          "schema_version": 1,
+          "tag": "Untagged",
+          "transform": {
+            "component_id": 30,
+            "enabled": true,
+            "position": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "schema_version": 1,
+            "type": "Transform"
+          }
+        }
+      ],
+      "components": [],
+      "id": 11,
+      "is_static": false,
+      "layer": 0,
+      "name": "GameCanvas",
+      "py_components": [
+        {
+          "component_id": 924,
+          "enabled": true,
+          "execution_order": 0,
+          "py_fields": {
+            "__component_id__": 924,
+            "__schema_version__": 1,
+            "__type_name__": "UICanvas",
+            "match_width_or_height": 0.5,
+            "pixel_perfect": false,
+            "reference_height": 1080,
+            "reference_pixels_per_unit": 100.0,
+            "reference_width": 1920,
+            "render_mode": 0,
+            "screen_match_mode": 0,
+            "sort_order": 0,
+            "target_camera_id": 0,
+            "ui_scale_mode": 1
+          },
+          "py_type_name": "UICanvas",
+          "schema_version": 1,
+          "script_guid": "",
+          "type": "PyComponentProxy",
+          "type_guid": ""
+        }
+      ],
+      "schema_version": 1,
+      "tag": "Untagged",
+      "transform": {
+        "component_id": 26,
+        "enabled": true,
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "schema_version": 1,
+        "type": "Transform"
+      }
+    }
+  ],
+  "schema_version": 1
+}
