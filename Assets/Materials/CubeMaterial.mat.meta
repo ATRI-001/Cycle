@@ -11,7 +11,7 @@
         },
         "guid": {
             "type": "string",
-            "value": "65e62ad003f556454e8a54bf8ba8e4e2"
+            "value": "707efb83ce43bf390e340fd3cb39de26"
         },
         "importer_version": {
             "type": "int",
@@ -19,7 +19,7 @@
         },
         "last_modified": {
             "type": "string",
-            "value": "1779031400"
+            "value": "1779032477"
         },
         "material_name": {
             "type": "string",

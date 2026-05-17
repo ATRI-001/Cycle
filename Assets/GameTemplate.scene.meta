@@ -3,27 +3,27 @@
     "metadata": {
         "character_count": {
             "type": "size_t",
-            "value": 71
+            "value": 15844
         },
         "content_hash": {
             "type": "string",
-            "value": "fbe894cfd37b79cf"
+            "value": "1a71b2c26b773459"
         },
         "encoding": {
             "type": "string",
-            "value": "ascii"
+            "value": "utf-8"
         },
         "file_extension": {
             "type": "string",
-            "value": ".md"
+            "value": ".scene"
         },
         "file_path": {
             "type": "string",
-            "value": "D:/Github\\Cycle\\Assets\\README.md"
+            "value": "D:/Github\\Cycle\\Assets\\GameTemplate.scene"
         },
         "file_size": {
             "type": "size_t",
-            "value": 74
+            "value": 16509
         },
         "file_type": {
             "type": "string",
@@ -31,7 +31,7 @@
         },
         "guid": {
             "type": "string",
-            "value": "dd30c7219fcd3d49f1e6fb242467e993"
+            "value": "abe59a3b7a4212e23ee729e60f6af723"
         },
         "importer_version": {
             "type": "int",
@@ -47,7 +47,7 @@
         },
         "line_count": {
             "type": "size_t",
-            "value": 4
+            "value": 666
         },
         "resource_type": {
             "type": "enum infernux::ResourceType",
